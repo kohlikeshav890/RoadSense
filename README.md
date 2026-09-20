@@ -119,6 +119,33 @@ Build System:
 Gradle
 Kotlin DSL
 
+## Screenshots
+
+### Main Dashboard
+
+The RoadSense dashboard allows users to start and stop detection, view detected potholes, and access the map.
+
+![RoadSense Main Dashboard](screenshots/main-screen.jpeg)
+
+### Real-Time Pothole Detection
+
+The application displays the detection status and updates the total number of detected potholes when an anomaly is identified.
+
+![RoadSense Detection](screenshots/detection.jpeg)
+
+### Pothole History
+
+Detected potholes are recorded with their geographic coordinates and detection timestamp.
+
+![RoadSense Pothole List](screenshots/pothole-list.jpeg)
+
+### Pothole Map
+
+Detected potholes can be visualized geographically on the map.
+
+![RoadSense Map](screenshots/map.jpeg)
+
+
 Project Structure:
 RoadSense/
 │

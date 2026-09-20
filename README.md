@@ -81,6 +81,7 @@ RoadSense uses smartphone motion sensors to identify sudden changes associated w
 A fixed threshold may not work equally well at different driving speeds. RoadSense therefore incorporates speed-dependent thresholding, allowing the detection criteria to adapt according to the current speed.
 
 The detection process is:
+```text
 Sensor Reading
       ↓
 Acceleration Analysis
@@ -98,6 +99,7 @@ Normal        Anomaly
  ↓               ↓
 Continue     Record Event
 Monitoring
+```
 
 Technology Stack:
 
@@ -126,28 +128,29 @@ Kotlin DSL
 
 The RoadSense dashboard allows users to start and stop detection, view detected potholes, and access the map.
 
-![RoadSense Main Dashboard](screenshots/main-screen.jpeg)
+<img src="screenshots/main-screen.jpeg" alt="RoadSense Main Dashboard" width="350">
 
 ### Real-Time Pothole Detection
 
 The application displays the detection status and updates the total number of detected potholes when an anomaly is identified.
 
-![RoadSense Detection](screenshots/detection.jpeg)
+<img src="screenshots/detection.jpeg" alt="RoadSense Detection" width="350">
 
 ### Pothole History
 
 Detected potholes are recorded with their geographic coordinates and detection timestamp.
 
-![RoadSense Pothole List](screenshots/pothole-list.jpeg)
+<img src="screenshots/pothole-list.jpeg" alt="RoadSense Pothole History" width="350">
 
 ### Pothole Map
 
 Detected potholes can be visualized geographically on the map.
 
-![RoadSense Map](screenshots/map.jpeg)
+<img src="screenshots/map.jpeg" alt="RoadSense Map" width="350">
 
 
 Project Structure:
+```text
 RoadSense/
 │
 ├── app/
@@ -175,6 +178,7 @@ RoadSense/
 ├── settings.gradle.kts
 ├── .gitignore
 └── README.md
+```
 
 Getting Started
 Prerequisites

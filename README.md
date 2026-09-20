@@ -39,12 +39,13 @@ Pothole Record
  ┌───────────────┐
  ↓               ↓
 Pothole List   Map View
-
+```
 RoadSense monitors motion data from the smartphone while the detection service is active. Sensor readings are evaluated against a detection threshold that adapts according to the current speed.
 
 When the measured motion satisfies the detection conditions, RoadSense records the event along with its location and timestamp.
 
 Application Architecture
+```text
                          RoadSense
                             │
              ┌──────────────┼──────────────┐
@@ -61,7 +62,7 @@ Application Architecture
                             │
                             ▼
                     Pothole Repository
-
+```
 Main Components
 | Component                | Responsibility                              |
 | ------------------------ | ------------------------------------------- |
